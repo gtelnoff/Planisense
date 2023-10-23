@@ -1,0 +1,18 @@
+<div class="tree-visualizer-container">
+    <div class="tree-list-container">
+        <div *ngIf="AllTreesVarieties" class="tree-list">
+            <div class= "tree-name"(click)="getValueSelect(AllTreesVarieties)" *ngFor="let AllTreesVarieties of AllTreesVarieties.result">{{ AllTreesVarieties }}</div>
+        </div>
+    </div>
+    <div class="map-container">
+        <div class="map-frame">
+          <div id="map"></div>
+        </div>
+    </div>
+    <div class="legend-container">
+        <div class="lengend">
+            <div class="title"><b>Trees in Paris</b></div>
+            <div class="lengend-tree-name">{{treeSelected}}: {{treeSelectedNbr}}</div>
+        </div>
+    </div>
+</div>
