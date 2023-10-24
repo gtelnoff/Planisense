@@ -8,3 +8,5 @@ To compile this project, you will only need <b><a href="https://docs.docker.com/
 <pre>docker compose up</pre>                                                                                                                                                                                                 
 <h1>Rendering</h1>
 <img src="1.png">
+<img src="2.png">
+<img src="3.png">
